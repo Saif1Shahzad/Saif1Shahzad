@@ -1,9 +1,12 @@
-![Saif Shahzad — Less noise. More signal. Data science and applied AI, from research to real-world tools.](assets/hero.svg)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/static/hero.svg">
+  <img src="assets/hero.svg" width="1200" alt="Saif Shahzad — Less noise. More signal. Data science and applied AI, from research to real-world tools.">
+</picture>
 
 <p align="center">
   <a href="#selected-work">Selected work</a> &nbsp; / &nbsp;
   <a href="#how-i-work">How I work</a> &nbsp; / &nbsp;
-  <a href="#the-toolkit">The toolkit</a> &nbsp; / &nbsp;
+  <a href="#tech-stack">Tech stack</a> &nbsp; / &nbsp;
   <a href="mailto:saifshahzad901@gmail.com?subject=Project%20inquiry%20from%20GitHub">Start a conversation ↗</a>
 </p>
 
@@ -27,7 +30,7 @@ Four ways I explore the distance between raw data and a useful decision.
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/Saif1Shahzad/invoice-intelligence"><img src="assets/project-invoice.svg" width="600" alt="01 — Invoice Intelligence. Applied AI, live pilot. OCR, LLM extraction, and human review."></a>
+<a href="https://github.com/Saif1Shahzad/invoice-intelligence"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/static/project-invoice.svg"><img src="assets/project-invoice.svg" width="600" alt="01 — Invoice Intelligence. Applied AI, live pilot. OCR, LLM extraction, and human review."></picture></a>
 
 ### Invoice Intelligence
 
@@ -42,7 +45,7 @@ PDFs, scans, and receipts become structured data through OCR and AI extraction. 
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/Saif1Shahzad/AI-Review-Analysis-with-Custom-Transformers-and-RAG"><img src="assets/project-transformers.svg" width="600" alt="02 — Reviews, understood. Custom transformers, retrieval, and ablation experiments."></a>
+<a href="https://github.com/Saif1Shahzad/AI-Review-Analysis-with-Custom-Transformers-and-RAG"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/static/project-transformers.svg"><img src="assets/project-transformers.svg" width="600" alt="02 — Reviews, understood. Custom transformers, retrieval, and ablation experiments."></picture></a>
 
 ### Review Understanding + RAG
 
@@ -59,7 +62,7 @@ A custom transformer encoder learns review labels and embeddings. Retrieval find
 <tr>
 <td width="50%" valign="top">
 
-<a href="https://github.com/Saif1Shahzad/dmt-gnn-aml"><img src="assets/project-graph.svg" width="600" alt="03 — Follow the transfers. Temporal graph learning for anti-money-laundering research, in progress."></a>
+<a href="https://github.com/Saif1Shahzad/dmt-gnn-aml"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/static/project-graph.svg"><img src="assets/project-graph.svg" width="600" alt="03 — Follow the transfers. Temporal graph learning for anti-money-laundering research, in progress."></picture></a>
 
 ### Temporal Graph Learning for AML
 
@@ -76,7 +79,7 @@ Research on directed multigraphs, temporal attention, and recurrent memory for f
 </td>
 <td width="50%" valign="top">
 
-<a href="https://github.com/Saif1Shahzad/cardioai-heart-disease-prediction"><img src="assets/project-cardio.svg" width="600" alt="04 — Look beyond the prediction. Educational machine learning study with XGBoost, SHAP, and model comparison."></a>
+<a href="https://github.com/Saif1Shahzad/cardioai-heart-disease-prediction"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/static/project-cardio.svg"><img src="assets/project-cardio.svg" width="600" alt="04 — Look beyond the prediction. Educational machine learning study with XGBoost, SHAP, and model comparison."></picture></a>
 
 ### CardioAI
 
@@ -109,7 +112,10 @@ An educational heart disease modeling study connecting data preparation, classif
 
 ## How I work
 
-![Understand the decision and data → Experiment with baselines and honest evaluation → Build a usable, inspectable tool → Refine through feedback.](assets/approach.svg)
+<picture>
+  <source media="(prefers-reduced-motion: reduce)" srcset="assets/static/approach.svg">
+  <img src="assets/approach.svg" width="1200" alt="Understand the decision and data → Experiment with baselines and honest evaluation → Build a usable, inspectable tool → Refine through feedback.">
+</picture>
 
 **Start with the decision.** What needs to become easier, clearer, or faster? That question shapes the data, the model, and the interface.
 
@@ -117,16 +123,35 @@ An educational heart disease modeling study connecting data preparation, classif
 
 **Connect the pieces.** Data preparation, modeling, APIs, and interfaces belong to the same conversation. The goal is a tool someone can understand and use.
 
+<details>
+<summary><strong>The small details that make a tool worth trusting ↗</strong></summary>
+
 <br>
 
-## The toolkit
+- **Evidence beside the answer.** In [Invoice Intelligence](https://github.com/Saif1Shahzad/invoice-intelligence), extracted fields link back to their source. A person confirms the record before export.
+- **The second click matters, too.** The invoice workflow accounts for repeated uploads, duplicate findings, and stale edits, so retries and concurrent work have explicit handling.
+- **Time is part of the data.** In [DMT-GNN AML](https://github.com/Saif1Shahzad/dmt-gnn-aml), an event is scored before it updates memory. Histories exclude future events; preprocessing uses training data.
+- **A result needs its context.** The [review understanding experiment](https://github.com/Saif1Shahzad/AI-Review-Analysis-with-Custom-Transformers-and-RAG) compares RAG with no RAG. Research progress, completed checks, and pending evaluation are documented separately.
+
+</details>
+
+<br>
+
+## Tech stack
+
+From the first notebook to the API, interface, and deployment.
+
+<picture>
+  <source media="(max-width: 600px)" srcset="assets/tech-stack-mobile.svg">
+  <img src="assets/tech-stack.svg" width="1200" alt="My tech stack: Python, PyTorch, scikit-learn, pandas, NumPy, FastAPI, React, TypeScript, PostgreSQL, Streamlit, Git, and GitHub Actions.">
+</picture>
 
 | Focus | Tools and methods I've used |
 | :--- | :--- |
-| **Data & modeling** | Python · pandas · NumPy · scikit-learn · XGBoost · PyTorch |
+| **Data & modeling** | [Python](https://www.python.org/) · [pandas](https://pandas.pydata.org/) · [NumPy](https://numpy.org/) · [scikit-learn](https://scikit-learn.org/) · XGBoost · [PyTorch](https://pytorch.org/) |
 | **Language & intelligence** | Transformers · RAG · Embeddings · OCR · LLM APIs · SHAP |
-| **Applications & delivery** | FastAPI · React · TypeScript · Streamlit · PostgreSQL · Vercel |
-| **Experiments & verification** | Jupyter · Model comparisons · Ablation studies · Regression tests · GitHub Actions |
+| **Applications & delivery** | [FastAPI](https://fastapi.tiangolo.com/) · [React](https://react.dev/) · [TypeScript](https://www.typescriptlang.org/) · [Streamlit](https://streamlit.io/) · [PostgreSQL](https://www.postgresql.org/) · Vercel |
+| **Experiments & verification** | Jupyter · Model comparisons · Ablation studies · Regression tests · [GitHub Actions](https://github.com/features/actions) |
 
 <br>
 
@@ -136,7 +161,7 @@ I'm open to **project work, research collaborations, and building with people wh
 
 Bring me a document workflow that needs less manual work, a dataset with an unanswered question, or an AI idea that needs a prototype. Tell me **what you're trying to achieve, what you have so far, and your timeline**. That's enough to start.
 
-<a href="mailto:saifshahzad901@gmail.com?subject=Project%20inquiry%20from%20GitHub"><img src="assets/contact.svg" width="1200" alt="Have a hard problem? Let's make it useful. Email Saif Shahzad at saifshahzad901@gmail.com."></a>
+<a href="mailto:saifshahzad901@gmail.com?subject=Project%20inquiry%20from%20GitHub"><picture><source media="(prefers-reduced-motion: reduce)" srcset="assets/static/contact.svg"><img src="assets/contact.svg" width="1200" alt="Have a hard problem? Let's make it useful. Email Saif Shahzad at saifshahzad901@gmail.com."></picture></a>
 
 <p align="center">
   <strong><a href="mailto:saifshahzad901@gmail.com?subject=Project%20inquiry%20from%20GitHub">saifshahzad901@gmail.com</a></strong>

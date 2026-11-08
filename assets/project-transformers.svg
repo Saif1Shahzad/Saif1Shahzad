@@ -1,5 +1,58 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="260" viewBox="0 0 600 260" fill="none" role="img" aria-labelledby="title desc">
-<title id="title">Reviews, / understood.</title>
-<desc id="desc">NLP / CUSTOM ARCHITECTURES. TRANSFORMERS  /  RETRIEVAL  /  ABLATIONS. Decorative project illustration.</desc>
-<rect x=".5" y=".5" width="599" height="259" rx="14" fill="#111722" stroke="#293140"/><path d="M30 0V260M0 216H600" stroke="#293140" stroke-opacity=".35"/><text x="28" y="39" fill="#a59aff" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="12" font-weight="400" letter-spacing="1.3">NLP / CUSTOM ARCHITECTURES</text><text x="548" y="39" fill="#a5adbd" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="13" font-weight="400" letter-spacing="0">02</text><text x="26" y="126" fill="#f1f0e8" font-family="Arial,Helvetica,sans-serif" font-size="37" font-weight="700" letter-spacing="-1.5">Reviews,</text><text x="26" y="168" fill="#f1f0e8" font-family="Arial,Helvetica,sans-serif" font-size="37" font-weight="700" letter-spacing="-1.5">understood.</text><text x="28" y="242" fill="#a5adbd" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="12" font-weight="400" letter-spacing="0.2">TRANSFORMERS  /  RETRIEVAL  /  ABLATIONS</text><line x1="414" y1="92" x2="465" y2="92" stroke="#293140" stroke-width="1" /><line x1="414" y1="92" x2="465" y2="126" stroke="#293140" stroke-width="1" /><line x1="414" y1="92" x2="465" y2="160" stroke="#293140" stroke-width="1" /><line x1="414" y1="126" x2="465" y2="92" stroke="#293140" stroke-width="1" /><line x1="414" y1="126" x2="465" y2="126" stroke="#293140" stroke-width="1" /><line x1="414" y1="126" x2="465" y2="160" stroke="#293140" stroke-width="1" /><line x1="414" y1="160" x2="465" y2="92" stroke="#293140" stroke-width="1" /><line x1="414" y1="160" x2="465" y2="126" stroke="#293140" stroke-width="1" /><line x1="414" y1="160" x2="465" y2="160" stroke="#293140" stroke-width="1" /><line x1="465" y1="92" x2="516" y2="92" stroke="#293140" stroke-width="1" /><line x1="465" y1="92" x2="516" y2="126" stroke="#293140" stroke-width="1" /><line x1="465" y1="92" x2="516" y2="160" stroke="#293140" stroke-width="1" /><line x1="465" y1="126" x2="516" y2="92" stroke="#293140" stroke-width="1" /><line x1="465" y1="126" x2="516" y2="126" stroke="#293140" stroke-width="1" /><line x1="465" y1="126" x2="516" y2="160" stroke="#293140" stroke-width="1" /><line x1="465" y1="160" x2="516" y2="92" stroke="#293140" stroke-width="1" /><line x1="465" y1="160" x2="516" y2="126" stroke="#293140" stroke-width="1" /><line x1="465" y1="160" x2="516" y2="160" stroke="#293140" stroke-width="1" /><circle cx="414.00" cy="92.00" r="5.00" fill="#a59aff" /><circle cx="414.00" cy="126.00" r="5.00" fill="#a59aff" /><circle cx="414.00" cy="160.00" r="5.00" fill="#a59aff" /><circle cx="465.00" cy="92.00" r="5.00" fill="#a59aff" /><circle cx="465.00" cy="126.00" r="5.00" fill="#a59aff" /><circle cx="465.00" cy="160.00" r="5.00" fill="#a59aff" /><circle cx="516.00" cy="92.00" r="5.00" fill="#d6ff7f" /><circle cx="516.00" cy="126.00" r="5.00" fill="#d6ff7f" /><circle cx="516.00" cy="160.00" r="5.00" fill="#d6ff7f" /><rect x="435" y="183" width="60" height="18" rx="3" stroke="#a59aff"/><text x="448" y="196" fill="#a59aff" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="10" font-weight="400" letter-spacing="1">RAG</text><line x1="465" y1="165" x2="465" y2="183" stroke="#a59aff" stroke-width="1" />
+  <title id="title">Reviews, / understood.</title>
+  <desc id="desc">NLP / CUSTOM ARCHITECTURES. TRANSFORMERS  /  RETRIEVAL  /  ABLATIONS. Decorative project illustration.</desc>
+  <style>
+  .pulse { animation: breathe 6s ease-in-out infinite; }
+  .flow { stroke-dasharray: 5 16; animation: flow 12s linear infinite; }
+  .nudge { animation: nudge 6s ease-in-out infinite; }
+  @keyframes breathe { 0%, 100% { opacity: .45; } 50% { opacity: 1; } }
+  @keyframes flow { to { stroke-dashoffset: -168; } }
+  @keyframes nudge { 0%, 70%, 100% { transform: translate(0,0); } 80% { transform: translate(5px,-5px); } }
+  @media (prefers-reduced-motion: reduce) {
+    .pulse, .flow, .nudge { animation: none !important; }
+    .motion { display: none; }
+  }
+</style>
+  <rect x=".5" y=".5" width="599" height="259" rx="14" fill="#111722" stroke="#293140" />
+  <path d="M30 0V260M0 216H600" stroke="#293140" stroke-opacity=".35" />
+  <text x="28" y="39" fill="#a59aff" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="12" font-weight="400" letter-spacing="1.3">NLP / CUSTOM ARCHITECTURES</text>
+  <text x="548" y="39" fill="#a5adbd" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="13" font-weight="400" letter-spacing="0">02</text>
+  <text x="26" y="126" fill="#f1f0e8" font-family="Arial,Helvetica,sans-serif" font-size="37" font-weight="700" letter-spacing="-1.5">Reviews,</text>
+  <text x="26" y="168" fill="#f1f0e8" font-family="Arial,Helvetica,sans-serif" font-size="37" font-weight="700" letter-spacing="-1.5">understood.</text>
+  <text x="28" y="242" fill="#a5adbd" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="12" font-weight="400" letter-spacing="0.2">TRANSFORMERS  /  RETRIEVAL  /  ABLATIONS</text>
+  <line x1="414" y1="92" x2="465" y2="92" stroke="#293140" stroke-width="1" />
+  <line x1="414" y1="92" x2="465" y2="126" stroke="#293140" stroke-width="1" />
+  <line x1="414" y1="92" x2="465" y2="160" stroke="#293140" stroke-width="1" />
+  <line x1="414" y1="126" x2="465" y2="92" stroke="#293140" stroke-width="1" />
+  <line x1="414" y1="126" x2="465" y2="126" stroke="#293140" stroke-width="1" />
+  <line x1="414" y1="126" x2="465" y2="160" stroke="#293140" stroke-width="1" />
+  <line x1="414" y1="160" x2="465" y2="92" stroke="#293140" stroke-width="1" />
+  <line x1="414" y1="160" x2="465" y2="126" stroke="#293140" stroke-width="1" />
+  <line x1="414" y1="160" x2="465" y2="160" stroke="#293140" stroke-width="1" />
+  <line x1="465" y1="92" x2="516" y2="92" stroke="#293140" stroke-width="1" />
+  <line x1="465" y1="92" x2="516" y2="126" stroke="#293140" stroke-width="1" />
+  <line x1="465" y1="92" x2="516" y2="160" stroke="#293140" stroke-width="1" />
+  <line x1="465" y1="126" x2="516" y2="92" stroke="#293140" stroke-width="1" />
+  <line x1="465" y1="126" x2="516" y2="126" stroke="#293140" stroke-width="1" />
+  <line x1="465" y1="126" x2="516" y2="160" stroke="#293140" stroke-width="1" />
+  <line x1="465" y1="160" x2="516" y2="92" stroke="#293140" stroke-width="1" />
+  <line x1="465" y1="160" x2="516" y2="126" stroke="#293140" stroke-width="1" />
+  <line x1="465" y1="160" x2="516" y2="160" stroke="#293140" stroke-width="1" />
+  <circle cx="414.00" cy="92.00" r="5.00" fill="#a59aff" />
+  <circle cx="414.00" cy="126.00" r="5.00" fill="#a59aff" />
+  <circle cx="414.00" cy="160.00" r="5.00" fill="#a59aff" />
+  <circle cx="465.00" cy="92.00" r="5.00" fill="#a59aff" />
+  <circle cx="465.00" cy="126.00" r="5.00" fill="#a59aff" />
+  <circle cx="465.00" cy="160.00" r="5.00" fill="#a59aff" />
+  <circle cx="516.00" cy="92.00" r="5.00" fill="#d6ff7f" />
+  <circle cx="516.00" cy="126.00" r="5.00" fill="#d6ff7f" />
+  <circle cx="516.00" cy="160.00" r="5.00" fill="#d6ff7f" />
+  <rect x="435" y="183" width="60" height="18" rx="3" stroke="#a59aff" />
+  <text x="448" y="196" fill="#a59aff" font-family="SFMono-Regular,Consolas,Liberation Mono,monospace" font-size="10" font-weight="400" letter-spacing="1">RAG</text>
+  <line x1="465" y1="165" x2="465" y2="183" stroke="#a59aff" stroke-width="1" />
+  <g class="motion">
+    <circle r="3" fill="#d6ff7f">
+      <animateMotion dur="9s" repeatCount="indefinite" path="M414 92 L465 126 L516 160 L465 126 L414 92" calcMode="paced" />
+    </circle>
+  </g>
 </svg>
